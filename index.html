@@ -15,7 +15,12 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-
+    <style>
+      #loading,
+      #results {
+        display: none;
+      }
+    </style>
     <title>Calculator</title>
   </head>
   <body class="bg-dark">
@@ -64,9 +69,9 @@
               </div>
             </form>
             <!-- LOADING -->
-            <!-- <div id="loading">
+            <div id="loading">
               <img src="img/loading.gif" alt="" />
-            </div> -->
+            </div>
 
             <!-- RESULT -->
             <div id="results" class="pt-4">
