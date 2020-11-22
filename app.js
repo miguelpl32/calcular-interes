@@ -38,7 +38,7 @@ function calculateResults(e) {
     //Hide loader
     document.getElementById("loading").style.display = "none";
   } else {
-    showError("Please check your numbers");
+    showError("Rellena todos los campos!!!");
   }
 }
 
